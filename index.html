@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>KO Digital Marketing Agency</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="images/logo.png" alt="Agency Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Transform Your Business with Cutting-Edge Digital Marketing</h1>
+            <p>We help businesses grow with effective online marketing strategies.</p>
+            <a href="#contact" class="cta-button">Get a Free Consultation</a>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about" class="about">
+        <h2>About Us</h2>
+        <p>We are a full-service digital marketing agency focused on driving results. From SEO to social media marketing, we specialize in delivering tailored solutions to meet your business goals.</p>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <h2>Our Services</h2>
+        <div class="service-cards">
+            <div class="card">
+                <h3>SEO Optimization</h3>
+                <p>Improve your website's visibility on search engines and drive organic traffic.</p>
+            </div>
+            <div class="card">
+                <h3>Social Media Marketing</h3>
+                <p>Boost your brand awareness and engagement across social media platforms.</p>
+            </div>
+            <div class="card">
+                <h3>Content Marketing</h3>
+                <p>Develop content strategies that resonate with your target audience and increase conversions.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <form id="contact-form" action="submit_form.php" method="POST">
+            <label for="name">Full Name</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 KO Digital Marketing Agency | All rights reserved</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
